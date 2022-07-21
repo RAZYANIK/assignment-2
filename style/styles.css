@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*-------- google font------------ */
+/* ------top-page design--------- */
+/* -----------------default settings------------------- */
+/*------------------- used animation on watch live button ---------------------*/
+body {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+/*------------------- default settings--------------------- */
+.whole {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.text p {
+    margin-top: 30px;
+    color: white;
+    /* font-weight: 700; */
+
+}
+
+h1 {
+    color: white;
+}
+
+
+
+.text {
+    width: 424px;
+    height: 531px;
+    margin-left: 95px;
+    margin-top: 35px;
+}
+
+/* --------------animation add here-------------------- */
+.top-page {
+    width: 1421px;
+    height: 646px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgba(23, 2, 2, 0.923);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-in 0.5s;
+}
+
+/* --------------animation add here-------------------- */
+.top-page:hover {
+
+    box-shadow: inset 1421px 0 0 0 #000000;
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+}
+
+.top-page img {
+    width: 581px;
+    height: 613px;
+    margin-right: 35px;
+    margin-top: 34px;
+}
+
+.text button {
+    width: 147px;
+    height: 44px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 0;
+    margin-top: 15px;
+    box-shadow: inset 0 0 0 0 #000000;
+    transition: ease-out 0.3s;
+
+}
+
+.text button:hover {
+
+    box-shadow: inset 147px 0 0 0 #f80505;
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+}
+
+.text a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.text h1 {
+    font-size: 60px;
+}
+
+.text p {
+    text-align: left;
+}
+
+.fa-angle-right {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+}
+
+/* ------top-page design ends here--------- */
+
+/* ---------------2nd-part starts here---------------*/
+
+
+.container {
+    width: 1421px;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    gap: 25px;
+    margin-top: 105px;
+    margin-bottom: 125px;
+}
+
+/*------------- blog part divide into 2 part ------------------*/
+.part-1 {
+    width: 315px;
+    /* border: 2px solid rgba(74, 73, 73, 0); */
+    display: flex;
+    justify-content: center;
+}
+
+.part-2 {
+    width: 300px;
+    /* border: 2px solid rgba(74, 73, 73, 0); */
+    flex-grow: 1;
+}
+
+/* -------------side navigation button----------------------------- */
+.left-bar button {
+
+    width: 250px;
+    height: 65px;
+    border: 2px solid rgba(255, 255, 255, 0.923);
+    /* background-color: red; */
+    border-radius: 7px;
+
+
+}
+
+.first,
+.last {
+    background-color: red;
+}
+
+.left-bar a {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+
+}
+
+.white-button {
+    color: white;
+}
+
+.leftnav {
+    width: 312px;
+    height: 312px;
+    border: 2px solid rgba(23, 2, 2, 0.923);
+    background-color: rgba(23, 2, 2, 0.923);
+    border-radius: 10px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+/* -------------------------2nd part for blogs---------------------------- */
+
+.transfer-news .transfer-banner img {
+    width: 100%;
+    height: 150px;
+    /* margin: 1px; */
+}
+
+.transfer-button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* margin-bottom: 10px; */
+
+
+}
+
+.transfer-details button {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+
+
+}
+
+/*--------------- upcaoming-match page part-------------------------- */
+.matchday-details h2,
+p {
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.transfer-new {
+    width: 342px;
+    height: 372px;
+    border: 1px solid rgba(164, 162, 162, 0.796);
+    background-color: rgba(255, 254, 255, 0.796);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/*--------------- upcaoming-match page part-------------------------- */
+.match-new {
+    width: 342px;
+    height: 290px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.transfer-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-top: 5px;
+
+}
+
+.transfer-title {
+    margin: 20px;
+}
+
+.transfer-msg {
+    margin-left: 10px;
+}
+
+.part-2,
+.transfer-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+/* ------------------blog part ends here---------------------------- */
+/* --------------------footer part starts here----------------------- */
+.bottom {
+    width: 100%;
+    height: 444px;
+    background-color: rgb(57, 56, 56);
+}
+
+.bottom a {
+    text-decoration: none;
+    margin-left: 50px;
+    padding-top: 50px;
+    color: white;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-left: -45px;
+}
+
+.bottom .down {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bottom,
+.up a {
+    font-size: 20px;
+
+}
+
+.up h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    /* padding-bottom: 30px; */
+}
+
+/*=------------------- footer end here --------------------------------*/
+/* ----------------------viewall button styles------------------------------ */
+
+.viewall {
+    display: flex;
+    justify-content: center;
+
+}
+
+.viewall a {
+    text-decoration: none;
+    color: white;
+}
+
+.viewall button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(189, 8, 8);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* ----------------------viewall button styles end here------------------------------ */
+/* ----------------media queries start from here -----------------------------*/
+/* ----------------for mobile using max-width 687px-------------------------------- */
+@media screen and (max-width: 687px) {
+    .top-page {
+        width: 90%;
+        /* display: flex; */
+        height: 672px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        background-color: rgba(23, 2, 2, 0.923);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        gap: 137px;
+        margin-top: 25px;
+        margin-left: 25px;
+        box-shadow: inset 0 0 0 0 #000000;
+        transition: ease-in 0.5s;
+
+
+
+    }
+
+    /* ---------------------------animation add here-------------------- */
+    .top-page:hover {
+
+        box-shadow: inset 670px 0 0 0 #000000;
+        cursor: pointer;
+        color: rgb(3, 3, 3);
+    }
+
+    .top-page img {
+        width: 300px;
+        height: 280px;
+        margin-left: 115px;
+        margin-bottom: -15px;
+
+    }
+
+    .text button {
+        /* position: absolute; */
+        margin-left: 45px;
+        width: 200px;
+    }
+
+    /* -----------------------------animation add here-------------------- */
+    .text button:hover {
+
+        box-shadow: inset 200px 0 0 0 #f80505;
+        cursor: pointer;
+        color: rgb(3, 3, 3);
+    }
+
+    .text {
+        width: 350px;
+        height: 178px;
+        /* margin-left: 65px;
+        margin-top: 35px; */
+    }
+
+    .text h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .text p {
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 5px;
+    }
+
+    .leftnav {
+        width: 312px;
+        height: 312px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        /* border-radius: 10px; */
+
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-left: 220px;
+
+
+    }
+
+    .part-2,
+    .transfer-news {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px; */
+
+    }
+
+    .transfer-new {
+        width: 475px;
+        height: 375px;
+        border: 1px solid rgba(166, 165, 165, 0.56);
+        border-radius: 10px;
+        margin-left: 25px;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    }
+
+    .match-new {
+        width: 475px;
+        height: 275px;
+        border: 1px solid rgba(166, 165, 165, 0.56);
+        border-radius: 3px;
+        margin-left: 25px;
+    }
+
+    .viewall {
+        display: none;
+    }
+
+    .bottom {
+        width: 100%;
+        height: 850px;
+        background-color: rgb(57, 56, 56);
+    }
+
+    .bottom span {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 40px;
+        margin-top: -30px;
+    }
+
+
+}
+
+/* Footer Styling Ends Here */
+
+/* Mobile Screen Styling Ends Here */
+/* Tablet Screen Styling Starts Here */
+/* Tablet Screen Size: 668px to 992px  */
+
+@media only screen and (min-width: 668px) and (max-width:992px) {
+
+
+    .top-page {
+        width: 90vw;
+        height: 398px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        background-color: rgba(23, 2, 2, 0.923);
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        margin-left: 35px;
+        box-shadow: inset 0 0 0 0 #000000;
+        transition: ease-in 0.5s;
+    }
+
+    /* -----------------------------animation add here-------------------- */
+    .top-page:hover {
+
+        box-shadow: inset 992px 0 0 0 #040404;
+        cursor: pointer;
+        color: rgb(3, 3, 3);
+    }
+
+
+
+
+    .top-page img {
+        width: 300px;
+        height: 298px;
+        margin-left: 0px;
+        margin-top: 101px;
+
+    }
+
+    .text h1 {
+        font-size: 32px;
+        text-align: left;
+        margin-left: -40px;
+    }
+
+    .text button {
+        /* position: absolute; */
+        margin-left: -40px;
+        width: 150px;
+    }
+
+    /* --------------------------------animation add here-------------------- */
+    .text button:hover {
+
+        box-shadow: inset 150px 0 0 0 #f80505;
+        cursor: pointer;
+        color: rgb(3, 3, 3);
+    }
+
+    .text p {
+        text-align: left;
+        margin-left: -40px;
+    }
+
+    .container {
+        display: flex;
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .leftnav {
+        width: 90vw;
+        height: 150px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        /* border-radius: 10px; */
+
+        /* padding: 20px; */
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+        margin-left: 450px;
+        margin-right: 15px;
+        margin-top: 40px;
+        margin-bottom: -30px;
+
+
+    }
+
+    .left-bar button {
+
+        width: 220px;
+        height: 65px;
+        border: 2px solid rgb(255, 255, 255);
+        /* background-color: red; */
+        border-radius: 7px;
+
+
+    }
+
+    .part-2,
+    .transfer-news {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 0px;
+
+
+    }
+
+    .transfer-new {
+        width: 340px;
+        height: 414px;
+        border: 1px solid rgba(166, 165, 165, 0.56);
+        border-radius: 10px;
+        margin-left: 30px;
+
+
+    }
+
+    .match-new {
+        width: 340px;
+        height: 275px;
+        border: 1px solid rgba(166, 165, 165, 0.56);
+        border-radius: 3px;
+        margin-left: 25px;
+    }
+
+    .viewall button {
+        width: 160px;
+        height: 60px;
+        background-color: rgb(189, 8, 8);
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .viewall a {
+        font-size: 18px;
+    }
+
+    .bottom {
+        width: 100%;
+        height: 550px;
+        background-color: rgb(57, 56, 56);
+    }
+
+    .bottom .social {
+        margin-left: -20px;
+    }
+
+    .bottom a {
+        font-size: 14px;
+        text-decoration: none;
+        margin-left: 25px;
+        padding-top: 50px;
+        color: white;
+
+    }
+
+
+
+    .down span {
+        /* display: flex; */
+
+
+        margin-right: 10px;
+        margin-top: -30px;
+    }
+
+
+}
+
+/* ----------full screen or for bigger screen --------- */
+@media only screen and (min-width:993px) {
+
+    .viewall {
+        display: none;
+    }
+}
